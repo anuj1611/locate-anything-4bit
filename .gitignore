@@ -1,0 +1,50 @@
+# Python virtual environment
+venv/
+.venv/
+env/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+
+# Build / dist
+*.egg-info/
+dist/
+build/
+*.egg
+
+# Model weights & large files (download from HuggingFace instead)
+*.bin
+*.safetensors
+*.pt
+*.pth
+
+# Output images (optional - comment out if you want to include results)
+output_test.png
+# result_4bit.png  # Keep this to show demo results in README
+
+# Logs & temp files
+*.log
+wandb/
+work_dirs/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb
+
+# Deepspeed checkpoints
+zero_to_fp32.py
+latest
+global_step*/
